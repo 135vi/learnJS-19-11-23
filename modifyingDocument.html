@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+    }
+    td, th {
+        border: 1px solid rgb(94, 12, 36);
+        padding: 5px;
+        text-align: center;
+    }
+    th {
+        font-weight: bold;
+        background-color: #c23760;
+    }
+
+    .hour {
+        color: rgb(0, 255, 213);
+    }
+    .min {
+        color: rgb(0, 174, 255);
+    }
+    .sec {
+        color: rgb(47, 0, 255);
+    }
+</style>
+<body>
+    <!-- №5 -->
+    <div id="container"></div>
+
+    <!-- №6 -->
+    <ul>
+        <li>Животные
+          <ul>
+                <li>Млекопитающие
+                    <ul>
+                        <li>Коровы</li>
+                        <li>Ослы</li>
+                        <li>Собаки</li>
+                        <li>Тигры</li>
+                    </ul>
+                </li>
+                <li>Другие
+                    <ul>
+                        <li>Змеи</li>
+                        <li>Птицы</li>
+                        <li>Ящерицы</li>
+                    </ul>
+                </li>
+          </ul>
+        </li>
+        <li>Рыбы
+            <ul>
+                <li>Аквариумные
+                    <ul>
+                        <li>Гуппи</li>
+                        <li>Скалярии</li>
+                    </ul>
+                </li>
+                <li>Морские
+                    <ul>
+                        <li>Морская форель</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- №7 -->
+    <div id="calendar"></div>
+
+    <!-- №8 -->
+    <input type="button" onclick="clockStart()" value="Старт">
+    <input type="button" onclick="clockStop()" value="Стоп">
+    <div id="clock">
+        <span class="hour">hh</span>:
+        <span class="min">mm</span>:
+        <span class="sec">ss</span>
+    </div>
+
+    <!-- №10 -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th><th>Surname</th><th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td><td>Smith</td><td>10</td>
+            </tr>
+            <tr>
+                <td>Pete</td><td>Brown</td><td>15</td>
+            </tr>
+            <tr>
+                <td>Ann</td><td>Lee</td><td>5</td>
+            </tr>
+            <tr>
+                <td>...</td><td>...</td><td>...</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
